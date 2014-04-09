@@ -1,0 +1,27 @@
+<html>
+<head>
+  <title>Dart iFrame</title>
+  <style>
+    body {
+      padding: 2rem;
+      background: #eee;
+      font-family: sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="message-controls">
+    <textarea id="compose-message"></textarea>
+    <button id="send-message">Send to Parent</button>
+  </div>
+  <div id="message-log-wrapper">
+    <p class="cntr lrg"><strong>Messages Received from Parent Window</strong></p>
+    <ul id="message-log">
+      
+    </ul>
+  </div>
+
+  <script type="application/dart" src="iframe.dart"></script>
+</body>
+</html>
