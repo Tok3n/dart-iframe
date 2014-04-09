@@ -21,9 +21,6 @@ window.addEventListener "message", ( evt ) ->
 
     li = document.createElement "li"
     li.innerHTML = evt.data
-
-    console.log li
-
     log.appendChild li
 
   else

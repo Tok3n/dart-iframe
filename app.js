@@ -25,7 +25,6 @@
     if (evt.origin === iframeOrigin) {
       li = document.createElement("li");
       li.innerHTML = evt.data;
-      console.log(li);
       return log.appendChild(li);
     } else {
       return console.log("Message received from elsewhere: " + evt.origin);
